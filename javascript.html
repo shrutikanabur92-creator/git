@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="java.js"></script>
+</head>
+<body>
+    <div id="demo"></div>
+    <script>
+        // block scope
+        {
+            var s="apple";
+            console.log(s);
+        }
+        {
+            var abc="bughati";
+            console.log(abc);
+        }
+        {
+            var place="mysore";
+            console.log(place);
+        }
+        {
+            var m=100;
+            console.log(m);
+        }
+        var car="BMW";
+        console.log(car);
+
+        // functional scope
+        
+        function add() {
+            var a=50;
+            console.log(a);
+        }
+        add()
+        function type(){
+            var car="creta";
+            console.log(car);
+        }
+        type()
+
+        function my_function(){
+            var car="volvo"
+        document.getElementById("demo").innerHTML="<strong>volvo</strong> "  
+        }
+        my_function()
+
+        function place(){
+            var historical="belur"
+        document.getElementById("demo").innerHTML="<p>belur</p>"    
+        }
+        place()
+
+        function name(){
+            var school="swarga raani"
+        document.getElementById("demo").innerText="<h1>swarg rani</h1>"
+        }
+        name()
+
+        function name(){
+            var fruit="apple"
+        console.log("apple") ;
+        }
+
+        // global scope
+
+     var name="dhruv"
+     function my_function(){
+        console.log("dhruv");
+     }
+     my_function()
+
+     var bike="honda unicorn"
+     function types(){
+        console.log("honda unicorn");
+     }
+     types()
+      
+     var temple="shanmukha temple"
+     function place(){
+        console.log("shanmukha temple");
+
+     }
+     place()
+      
+     var river="ganga"
+     function birth(){
+        console.log("ganga");
+     }
+     birth()
+
+
+        var sweet="jamun"
+        function food(){
+            console.log("jamun");
+
+        }
+        food()
+            
+    
+
+    </script>
+</body>
+</html>

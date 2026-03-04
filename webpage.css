@@ -1,0 +1,20 @@
+#abc{
+    background-color: burlywood;
+    text-align: center;
+}
+#a{
+    text-decoration: underline;
+    color: blueviolet;
+}
+.p{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#para1{
+        position: absolute;
+        left: 300px;
+        
+}
+    

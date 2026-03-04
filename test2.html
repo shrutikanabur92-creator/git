@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #a{
+            text-align: center;
+            color: blueviolet;
+            font-size: 50px;
+        }
+        .para{
+            text-align: left;
+            color: brown;
+            font-size: xx-large;
+        }
+        h3, h2 {
+            text-align: center;
+            color: aquamarine;
+        }
+        a:visited{
+            color: green;
+        }
+          a:hover{
+            color:pink;
+          }
+          a:active{
+            color: blue;
+          }
+          a:link{
+            color: red;
+          }
+          div > p {
+            background-color:yellow;
+          }
+          p::first-letter{
+            color: brown;
+            font-size: 50px;
+          }
+          a :target{
+            background-color: yellow;
+          }
+            </style>
+</head>
+<body>
+    <h1>Using css selectors</h1>
+    <p id="a"> my computer</p>
+    <p>this is a second test on html and css class</p>
+    <p class="para"> This is a blank</p>
+    <h3>this is paragraph</h3>
+    <h2>this is another paragraph</h2>
+    <!-- psedoclass selectors -->
+     <p> <a href="http:/www.udemy.com" target="_blank"> this ia a link</a></p>
+<!-- combinator selectors -->
+      <h2> combinator selectors </h2>
+      <div> 
+        <p>this is paragraph</p>
+        <p> this is another paragraph</p>
+        <section>
+        <p> this paragraph is too short</p>
+        </section>
+        <p> this paragraph is too long</p>
+      </div>
+      <!-- psedo element combinator -->
+       <p>This is my computer</p>
+       <!-- attribute selectors -->
+        <a href="https://www.w3schools.com">w3schools.com</a>
+        <a href="https://wwww.w3schools.com/html">html</a>
+        <a href= "webdesign.html"  target="_blank">udemy</a>
+
+</body>
+</html>

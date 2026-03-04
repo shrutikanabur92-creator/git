@@ -1,0 +1,36 @@
+/* #para1{
+    text-align: center;
+
+} */
+ /* * body{
+    background-color: blue;
+ }  */
+ /* #para1:hover{
+    color: red;
+ }
+ .para{
+    text-decoration: underline;
+    text-align: left;
+    letter-spacing: 2px;
+    font-size: 40px;
+    
+ }
+ .para{
+    background-color: aquamarine;
+ } */
+  .para {
+    display: flex;
+    color: brown;
+    background-color: black;
+    height: 100px;
+    width: 500px;
+
+  }
+  .para > div {
+    background-color: aquamarine;
+    margin: 5px;
+    font-size: 30px;
+    padding: 10px;
+    border: 20px;
+
+  }
